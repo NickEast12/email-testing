@@ -17,13 +17,13 @@
       port: 465,
       secure: true,
       auth: {
-        user: 'nick_east@yahoo.com',
-        pass: 'Archie1998'
+        user: 'USERNAME',
+        pass: 'PASSWORD'
       }
     });
     mailOpts = {
       from: req.body.name + '  ' + req.body.email + ' ',
-      to: 'nick_east@yahoo.com',
+      to: 'USERNAME',
       subject: 'New Website Enquiry',
       text: `${req.body.name} (${req.body.email}) : ${req.body.message}`
     };
