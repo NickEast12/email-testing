@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+form {
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+form h4 {
+  font-size: 2em;
+  margin-top: 1em;
+}
+
+form p {
+  font-size: 1.5em;
+}
+
+form fieldset {
+  margin-top: 1em;
+  padding: 1em 0;
+}
+
+form fieldset input {
+  margin-top: 1.5em;
+}
+
+form fieldset textarea {
+  margin-top: 1.5em;
+}
+
+form fieldset button {
+  width: 16%;
+  margin-top: 1em;
+  background: teal;
+  border-radius: 40px;
+  padding: .2em 0;
+  color: white;
+}
+/*# sourceMappingURL=style.css.map */

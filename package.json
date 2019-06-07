@@ -1,0 +1,17 @@
+{
+  "name": "email-test",
+  "version": "1.0.0",
+  "description": "Testing nodemailer",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Nick East",
+  "license": "MIT",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1",
+    "nodemailer": "^6.2.1"
+  }
+}

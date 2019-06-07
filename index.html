@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Email Form Test</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+    <script src="main.js"></script>
+</head>
+<body>
+    <form action="/send-email" method="POST">
+        <h4>Feeling Formal?</h4>
+        <p>get in contact with me below</p>
+        <fieldset>
+            <label>Name</label>
+            <input type="text" name="name">
+            <br>
+            <label>Email</label>
+            <input type="email" name="email">
+            <br>
+            <label>Message</label>
+            <textarea name="message"></textarea>
+            <br>
+            <button type="submit">send</button>
+        </fieldset>
+    </form>
+</body>
+</html>
