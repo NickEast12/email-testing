@@ -10,6 +10,8 @@
     app.use(bodyParser.json());
 // embedded javascript templating engine
     app.set('view engine', 'ejs');
+// expose public directory for css
+    app.use(express.static('public'));
 // block 2
     // GET route to index
     app.get('/', (req, res) => {
