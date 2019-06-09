@@ -8,7 +8,13 @@
 // body parser
     app.use(bodyParser.urlencoded({ extended: false}));
     app.use(bodyParser.json());
+// embedded javascript templating engine
+    app.set('view engine', 'ejs');
 // block 2
+    // GET route to index
+    app.get('/', (req, res) => {
+      res.render('index');
+    });
     // POST route from contact form
     app.post('/send-email', function (req, res) {
     let mailOpts, smtpTrans;
@@ -36,7 +42,7 @@
       }
     });
     });
-// app. listen
-    // app.listen(port, () => {
-    //     console.log(`server started on port: ${port}`);
-    // });
+app. listen
+    app.listen(port, () => {
+        console.log(`server started on port: ${port}`);
+    });
