@@ -1,6 +1,6 @@
 // require 
     const express = require('express')
-    const nodeMailer = require('nodemailer');
+    const nodemailer = require('nodemailer');
     const bodyParser = require('body-parser');
     const port = 8080;
 // block 1 
