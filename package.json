@@ -13,7 +13,7 @@
   "dependencies": {
     "body-parse": "^0.1.0",
     "ejs": "^2.6.1",
-    "express": "^4.17.1",
+    "express": "^4.18.2",
     "nodemailer": "^6.2.1"
   }
 }
